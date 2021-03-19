@@ -1,0 +1,55 @@
+﻿生成启动时间为 4/5/2018 12:13:08 AM。
+项目“C:\Users\WGao1\Desktop\VC Project\XML_Create_Dialog\XML_Create_Dialog\XML_Create_Dialog\XML_Create_Dialog.vcxproj”在节点 2 上(rebuild 个目标)。
+_PrepareForClean:
+  正在删除文件“Debug\XML_Create_Dialog.lastbuildstate”。
+InitializeBuildStatus:
+  正在创建“Debug\XML_Create_Dialog.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\XML_Create_Dialog.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+  stdafx.cpp
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\XML_Create_Dialog.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ProgressBar_XML.cpp XML_Create_Dialog.cpp XML_Create_DialogDlg.cpp
+  XML_Create_DialogDlg.cpp
+c:\users\wgao1\desktop\vc project\xml_create_dialog\xml_create_dialog\xml_create_dialog\xml_create_dialogdlg.cpp(241): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+  XML_Create_Dialog.cpp
+  ProgressBar_XML.cpp
+c:\users\wgao1\desktop\vc project\xml_create_dialog\xml_create_dialog\xml_create_dialog\progressbar_xml.cpp(221): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+c:\users\wgao1\desktop\vc project\xml_create_dialog\xml_create_dialog\xml_create_dialog\progressbar_xml.cpp(222): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+c:\users\wgao1\desktop\vc project\xml_create_dialog\xml_create_dialog\xml_create_dialog\progressbar_xml.cpp(223): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+c:\users\wgao1\desktop\vc project\xml_create_dialog\xml_create_dialog\xml_create_dialog\progressbar_xml.cpp(224): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+  正在生成代码...
+ResourceCompile:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /IDebug\ /nologo /fo"Debug\XML_Create_Dialog.res" XML_Create_Dialog.rc 
+ManifestResourceCompile:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\XML_Create_Dialog.exe.embed.manifest.res" Debug\XML_Create_Dialog_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\WGao1\Desktop\VC Project\XML_Create_Dialog\XML_Create_Dialog\Debug\XML_Create_Dialog.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\XML_Create_Dialog.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\WGao1\Desktop\VC Project\XML_Create_Dialog\XML_Create_Dialog\Debug\XML_Create_Dialog.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\WGao1\Desktop\VC Project\XML_Create_Dialog\XML_Create_Dialog\Debug\XML_Create_Dialog.lib" /MACHINE:X86 Debug\XML_Create_Dialog.res
+  Debug\XML_Create_Dialog.exe.embed.manifest.res
+  Debug\ProgressBar_XML.obj
+  Debug\stdafx.obj
+  Debug\XML_Create_Dialog.obj
+  Debug\XML_Create_DialogDlg.obj
+Manifest:
+  正在删除文件“Debug\XML_Create_Dialog.exe.embed.manifest”。
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\XML_Create_Dialog.exe.embed.manifest" /manifest Debug\XML_Create_Dialog.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\XML_Create_Dialog.exe.embed.manifest.res" Debug\XML_Create_Dialog_manifest.rc 
+LinkEmbedManifest:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\WGao1\Desktop\VC Project\XML_Create_Dialog\XML_Create_Dialog\Debug\XML_Create_Dialog.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\XML_Create_Dialog.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\WGao1\Desktop\VC Project\XML_Create_Dialog\XML_Create_Dialog\Debug\XML_Create_Dialog.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\WGao1\Desktop\VC Project\XML_Create_Dialog\XML_Create_Dialog\Debug\XML_Create_Dialog.lib" /MACHINE:X86 Debug\XML_Create_Dialog.res
+  Debug\XML_Create_Dialog.exe.embed.manifest.res
+  Debug\ProgressBar_XML.obj
+  Debug\stdafx.obj
+  Debug\XML_Create_Dialog.obj
+  Debug\XML_Create_DialogDlg.obj
+  XML_Create_Dialog.vcxproj -> C:\Users\WGao1\Desktop\VC Project\XML_Create_Dialog\XML_Create_Dialog\Debug\XML_Create_Dialog.exe
+FinalizeBuildStatus:
+  正在删除文件“Debug\XML_Create_Dialog.unsuccessfulbuild”。
+  正在对“Debug\XML_Create_Dialog.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Users\WGao1\Desktop\VC Project\XML_Create_Dialog\XML_Create_Dialog\XML_Create_Dialog\XML_Create_Dialog.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:21.87
