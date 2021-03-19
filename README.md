@@ -17,20 +17,35 @@ Of course, first of all, exporting all FTV HMI displays to be XML files is neede
 
 Import VBA program
 
-Firstly, create one button in HMI page to load operation faceplate, then change the priority of this button to enable VBA Control, and activate Release animation.
+Firstly, create one button in HMI page to load operation faceplate, then change the priority of this button to enable VBA Control,and activate Release animation.
+
 ![image](https://user-images.githubusercontent.com/16084196/111804736-4f1edb80-890b-11eb-854b-519797f225e2.png)
+
+
 ![image](https://user-images.githubusercontent.com/16084196/111805044-a1f89300-890b-11eb-8898-9164564de2c1.png)
 
 
+
 then import VBA program files(FTVSearchTag.frm) into HMI program, and select Reference.
+
+
 ![image](https://user-images.githubusercontent.com/16084196/111805400-f26ff080-890b-11eb-9605-84ef286fe986.png)
+
+
 ![image](https://user-images.githubusercontent.com/16084196/111805301-d9673f80-890b-11eb-8917-cc45f3442609.png)
 
+
 Add new VBA code into Release animation function.
+
+
 ![image](https://user-images.githubusercontent.com/16084196/111805588-20553500-890c-11eb-9940-8ec7f3eb3d1c.png)
 
+
 Change the XML file path in VBA code based on different project.
+
+
 ![image](https://user-images.githubusercontent.com/16084196/111805824-5befff00-890c-11eb-93ca-03d90b30724d.png)
 
 If you use custome faceplate not PlantPAx, you can edit below VBA code according to different project.
+
 ![image](https://user-images.githubusercontent.com/16084196/111806141-a70a1200-890c-11eb-92af-a7f780250d0d.png)
